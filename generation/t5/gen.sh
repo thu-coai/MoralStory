@@ -1,0 +1,1 @@
+python3 -u ./gen.py ../mo2st/model_zh/checkpoint-337 cuda:0 mo2st ../mo2st/data_zh ./result.txt zh

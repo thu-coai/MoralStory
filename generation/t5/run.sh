@@ -1,0 +1,17 @@
+env CUDA_VISIBLE_DEVICES=0 CUDA_LAUNCH_BLOCKING=1 python3 -u finetune_trainer.py \
+    --data_dir=./data \
+    --train_name=train \
+    --output_dir=./model \
+    --save_total_limit=30 \
+    --per_gpu_train_batch_size=10 \
+    --per_gpu_eval_batch_size=10 \
+    --num_train_epochs=30 \
+    --logging_steps=50 \
+    --model_name_or_path=./pretrain_model \
+    --learning_rate=3e-5 \
+    --n_val=50 \
+    --fp16 \
+    --do_train --do_eval \
+    --evaluation_strategy epoch \
+    --overwrite_output_dir \
+    --load_best_model_at_end

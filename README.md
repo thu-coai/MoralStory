@@ -2,7 +2,7 @@
 
 ## Introduction
 
-STORAL is a collection of 4k Chinese and 2k English human-written stories paired with morals. We propose two understanding tasks and two generation tasks on STORAL to test machinery abilities.
+STORAL is a collection of 4k Chinese and 2k English human-written stories paired with morals. We propose two understanding tasks and two generation tasks on STORAL to test machinery abilities. The paper will be published in NAACL 2022.
 
 ## Tasks
 

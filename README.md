@@ -4,6 +4,8 @@
 
 STORAL is a collection of 4k Chinese and 2k English human-written stories paired with morals. We propose two understanding tasks and two generation tasks on STORAL to test machinery abilities. The paper will be published in NAACL 2022.
 
+**🚀 NEWS: THE STORAL DATA ARE AVAILABLE AT 🤗 [HuggingFace](https://huggingface.co/datasets/Jiann/STORAL) NOW.**
+
 ## Tasks
 
 We design STORAL as an aggregation of two understanding tasks including moCpt and moPref, and two generation tasks including ST2MO and MO2ST. We show the task descriptions in the table below.
